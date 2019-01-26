@@ -114,7 +114,7 @@ export function decompressRTF(inputArray: number[]): number[] {
         return outputArray.slice(initialDictionary.length);
     }
     else if (compType == UNCOMPRESSED) {
-        return inputArray.slice(16, rawSize);
+        return inputArray.slice(16, 16 + rawSize);
     }
     else {
         throw new Error("Either COMPRESSED or UNCOMPRESSED");

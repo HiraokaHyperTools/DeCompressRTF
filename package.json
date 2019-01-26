@@ -1,7 +1,7 @@
 {
   "name": "@kenjiuno/decompressrtf",
-  "version": "0.1.0",
-  "description": "Decompress CompressedRTF stored in outlook msg",
+  "version": "0.1.1",
+  "description": "Decompress CompressedRTF (used in outlook msg)",
   "main": "lib/index.js",
   "author": "kenjiuno",
   "repository": "github:HiraokaHyperTools/DeCompressRTF",
