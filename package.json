@@ -1,0 +1,27 @@
+{
+  "name": "@kenjiuno/decompressrtf",
+  "version": "0.1.0",
+  "description": "Decompress CompressedRTF stored in outlook msg",
+  "main": "lib/index.js",
+  "author": "kenjiuno",
+  "repository": "github:HiraokaHyperTools/DeCompressRTF",
+  "license": "BSD-2-Clause",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir lib --extensions .ts",
+    "test": "echo \"Error: no test specified\"",
+    "prepare": "npm run build"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0"
+  }
+}
