@@ -1,5 +1,7 @@
 # DeCompressRTF
 
+![npm](https://img.shields.io/npm/v/@kenjiuno/decompressrtf)
+
 CompressedRTF is a compressed entity found in Outlook Item File (.msg).
 
 DeCompressRTF is a decompressor in JavaScript npm module
