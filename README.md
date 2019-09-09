@@ -1,6 +1,6 @@
 # DeCompressRTF
 
-![npm](https://img.shields.io/npm/v/@kenjiuno/decompressrtf)
+[![npm](https://img.shields.io/npm/v/@kenjiuno/decompressrtf)](https://www.npmjs.com/package/@kenjiuno/decompressrtf)
 
 CompressedRTF is a compressed entity found in Outlook Item File (.msg).
 
