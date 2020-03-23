@@ -1,6 +1,6 @@
 {
   "name": "@kenjiuno/decompressrtf",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Decompress CompressedRTF (used in outlook msg)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
