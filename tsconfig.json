@@ -1,14 +1,17 @@
 {
-    "compilerOptions": {
-        "target": "ES5",
-        "module": "commonjs",
-        "declaration": true,
-        "outDir": "lib",
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "rootDir": "./src"
-    },
-    "include": [
-        "src/index.ts"
-    ]
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "outDir": "lib",
+    "strict": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "rewriteRelativeImportExtensions": true,
+    "types": ["node"],
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/**/*.mts"
+  ]
 }

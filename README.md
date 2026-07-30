@@ -8,14 +8,14 @@ DeCompressRTF is a decompressor in JavaScript npm module
 
 ## How to use
 
-```javascript
-const fs = require('fs');
-const { decompressRTF } = require('@kenjiuno/decompressrtf');
+```typescript
+import { readFile } from 'node:fs/promises';
+import { decompressRTF } from '@kenjiuno/decompressrtf';
 
-const inputArray = fs.readFileSync('test/__substg1.0_10090102');
-const outputArray = decompressRTF(inputArray);
+const inputBuffer: Buffer = await readFile('./test-data/sample1.bin');
+const outputBuffer: Buffer = decompressRTF(inputBuffer);
 
-console.log(Buffer.from(outputArray).toString("ascii"));
+console.log(outputBuffer.toString('ascii'));
 ```
 
 ## Reference
