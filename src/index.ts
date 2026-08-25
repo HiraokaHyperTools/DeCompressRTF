@@ -62,12 +62,12 @@ export function decompressRTF(inputArray: number[]): number[] {
 
         //if (initialDictionary.length != 207) throw new Error("Fix initialDictionary!");
 
-        const outputArray = []; // automatically expanded
+        const outputArray: number[] = []; // automatically expanded
         const output = new Stream(outputArray);
 
         let outPos = 0;
         let inPos = 16;
-        let control;
+        let control = 0;
 
         for (let x = 0; x < initialDictionary.length; x += 1) {
             output.writeUInt8(initialDictionary.charCodeAt(x), outPos);
